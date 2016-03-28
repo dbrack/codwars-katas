@@ -1,5 +1,5 @@
 // Valid Parentheses
-// http://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript
+// http://www.codewars.com/kata/52774a314c2333f0a7000688/javascript
 
 const validParentheses = (parens) => {
   const openingBrackets = ['('];
