@@ -13,7 +13,7 @@ const validParentheses = (parens) => {
     else if (closingBrackets.indexOf(paren) > -1) {
       const expectedBracket = openingBrackets[closingBrackets.indexOf(paren)];
 
-      if (matches.length === 0 || (matches.shift() !== expectedBracket)) {
+      if (matches.length === 0 || matches.shift() !== expectedBracket) {
         return false;
       }
     }
